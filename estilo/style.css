@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.cima {
+    background: url('../imagens/cima.png') no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5em;
+    padding-top: 50px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+
+header p {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+
+.emoji {
+    text-shadow: none;
+}
+
+.baixo {
+    background: url('../imagens/baixo.png') no-repeat center;
+    background-size: cover;
+    height: 90px;
+}
