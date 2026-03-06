@@ -14,7 +14,7 @@ body, html {
 
 body {
     position: relative;
-    background: url('../imagens/fundo-cinemático.jpg') no-repeat center;
+    background: url('../imagens/fundo-cinema.png') no-repeat center;
     background-size: cover;
 }
 
@@ -74,7 +74,7 @@ main h2.shonen:hover {
 }
 
 main h2.isekai {
-    top: 97%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -100%);
 }
@@ -82,7 +82,7 @@ main h2.isekai {
 .baixo {
     position: absolute;
     display: none;
-    top: 99%;
+    top: 97%;
     left: 61%;
     transform: translate(-65%, -100%);
 }
@@ -92,16 +92,16 @@ main h2.isekai {
 }
 
 main h2.romance {
-    top: 50%;
-    left: 30px;
+    top: 38%;
+    left: 60px;
     transform: translate(0px, -50%);
 }
 
 .esquerda {
     position: absolute;
     display: none;
-    top: 70%;
-    left: 70px;
+    top: 58%;
+    left: 100px;
     transform: translate(0px, -70%);
 }
 
@@ -110,16 +110,16 @@ main h2.romance {
 }
 
 main h2.terror {
-    top: 50%;
-    left: 98%;
-    transform: translate(-100%, -50%);
+    top: 38%;
+    left: 96%;
+    transform: translate(-100%, -38%);
 }
 
 .direita {
     position: absolute;
     display: none;
-    top: 70%;
-    left: 97%;
+    top: 58%;
+    left: 95.5%;
     transform: translate(-100%, -70%);
 }
 
@@ -130,4 +130,12 @@ main h2.terror {
 main img {
     width: 75px;
     border-radius: 50%;
+}
+
+.anime {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 598px;
+    height: 339px;
 }
