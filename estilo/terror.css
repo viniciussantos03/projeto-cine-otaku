@@ -1,17 +1,16 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 :root {
-    --cor01: #97f9f942;
-    --cor02: #ff71b3;
-    --cor03: #bd2647;
-    --cor04: #1D8A99;
+    --cor01: #8C1818;
+    --cor02: #730E0E;
+    --cor03: #400404;
 
-    --font01:  "Dancing Script", cursive;
-    --font02:  "Montserrat Alternates", sans-serif;
+    --font01: "Nosifer", sans-serif;
+    --font02: "Special Elite", system-ui;
 }
 
 * {
@@ -32,25 +31,28 @@ body, html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor01);
+    background-color: var(--cor03);
 }
 
-div.your-lie-in-april {
-    background: url('../imagens/romance/your-lie-in-april.jpg') no-repeat center;
+div.another {
+    background: url('../imagens/terror/another.jpg') no-repeat center;
     background-size: cover;
     height: 250px;
+    box-shadow: 0px 0px 10px red;
 }
 
-div.uzaki-chan {
-    background: url('../imagens/romance/uzaki-chan.png') no-repeat top center;
+div.tokyo-ghoul {
+    background: url('../imagens/terror/tokyo-ghoul.jpg') no-repeat top center;
     background-size: cover;
     height: 250px;
+    box-shadow: 0px 0px 10px red;
 }
 
-div.kaguya-sama {
-    background: url('../imagens/romance/kaguya-sama.jpg') no-repeat left;
+div.the-promissed-neverland {
+    background: url('../imagens/terror/the-promissed-neverland.jpg') no-repeat right;
     background-size: cover;
-    height: 250px;
+    height: 280px;
+    box-shadow: 0px 0px 10px red;
 }
 
 main {
@@ -62,9 +64,13 @@ main h1 {
     font-size: 3em;
     font-family: var(--font01);
     text-align: center;
-    color: var(--cor02);
+    text-shadow: 0px 0px 10px red;
     font-weight: normal;
     margin-bottom: 30px;
+}
+
+.emoji {
+    text-shadow: none;
 }
 
 main p {
@@ -76,16 +82,16 @@ main p {
 
 .episodio {
     text-decoration: none;
-    background-color: var(--cor04);
-    color: var(--cor03);
+    background-color: var(--cor02);
+    color: red;
     padding: 8px 10px;
     border-radius: 30px;
 }
 
 .episodio:hover {
-    background-color: #0ab1c7;
-    color: #e7224d;
-    box-shadow: 0px 0px 5px #0ab1c7;
+    background-color: var(--cor02);
+    color: rgb(255, 40, 40);
+    box-shadow: 0px 0px 5px #730E0E;
 }
 
 .crunchyrrol {
