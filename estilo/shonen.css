@@ -86,7 +86,7 @@ main p {
     background-color: #2d69d8;
     color: #ffd000;
     box-shadow: 0px 0px 10px var(--cor03);
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .crunchyrrol {
