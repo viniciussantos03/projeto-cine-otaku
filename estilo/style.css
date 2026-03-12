@@ -15,12 +15,14 @@ body, html {
 body {
     background-color: black;
     color: white;
+    position: relative;
 }
 
 .cima {
     background: url('../imagens/cima.png') no-repeat;
     background-size: cover;
     height: 150px;
+    transform: translate(0px, -20px);
 }
 
 header {
@@ -50,6 +52,7 @@ header p {
     background: url('../imagens/baixo.png') no-repeat center;
     background-size: cover;
     height: 90px;
+    transform: translate(0px, -10px);
 }
 
 main {
