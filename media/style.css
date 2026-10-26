@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    header p {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 995px) {
+    .cima {
+        height: 100px;
+    }
+
+    .baixo {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1310px) {
+    .cima {
+        height: 120px;
+    }
+
+    .baixo {
+        height: 90px;
+    }
+}
